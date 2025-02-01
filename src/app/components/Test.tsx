@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 export const Test = (): JSX.Element => {
   return (
     <div className="mt-8 rounded-md border p-4">
