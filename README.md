@@ -1,50 +1,18 @@
-# Next.js + TypeScript + Tailwind CSS スターターキット
+# Next.js 学習用
 
-他ツールとして以下
+## 各ディレクトリ、ファイル
 
-- ESLint
-- Prettier
-- Secretlint
-
-## 環境設定の流れ
-
-1. `git clone`
-
-必要に応じて、
-
-- .git
-- .next
-- .gitignore
-
-あたりを削除
-
-2. `npm install`
-
-3. `npm run dev`
-
-4. `npm outdated` `npm update`
-
-必要に応じて
-
-環境変数の調整、バージョン互換性の確認を行い、必要であればアップデート
-
-```
-// レジストリをチェックして、インストールされている（または特定の）パッケージが現在古くなっているかどうかを確認
-npm outdated
-
-// tagとsemverを尊重してすべてのpackageを最新バージョンに更新
-npm update
-```
-
-## ポート番号変更
-
-```
-// プロジェクト/package.json
-
-...
-  "scripts": {
-    "dev": "next dev -p 3335",
-    ...
-  },
-...
-```
+- **src/app**
+  - **layout.tsx:** アプリケーション全体のレイアウトを定義。ナビゲーションバーやフッターなど、共通のUIコンポーネントをここに配置
+  - **page.tsx:** ルートパス（/）に対応するページコンポーネント
+  - **about/ や dashboard/:** サブディレクトリごとにページコンポーネントを配置。これにより、ネストされたルートを簡単に構築できる
+- **public/**
+  - 静的ファイル（画像、フォント、アイコンなど）を配置。/public フォルダ内のファイルは、ルートパスから直接アクセス可能
+- **styles/**
+  - グローバルなスタイルシートや CSS モジュールを配置
+- **next.config.js:**
+  - Next.js の設定ファイル。カスタム設定やプラグインの導入に使用
+- **tsconfig.json:**
+  - TypeScript の設定ファイル。プロジェクト全体の TypeScript の設定を管理
+- **package.json:**
+  - プロジェクトの依存関係やスクリプトを管理

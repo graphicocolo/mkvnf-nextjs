@@ -1,4 +1,4 @@
-import { Test } from '@/app/components/Test';
+import { Test } from '@/app/_components/Test';
 
 const Home = () => {
   return (
