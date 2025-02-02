@@ -16,3 +16,7 @@
   - TypeScript の設定ファイル。プロジェクト全体の TypeScript の設定を管理
 - **package.json:**
   - プロジェクトの依存関係やスクリプトを管理
+
+## Tailwind CSS
+
+[Install Tailwind CSS with Create React App](https://tailwindcss.com/docs/guides/create-react-app)

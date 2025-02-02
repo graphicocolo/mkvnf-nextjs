@@ -1,15 +1,12 @@
-import Link from 'next/link';
-
 import { Test } from '@/app/_components/Test';
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>トップページです</h1>
+    <>
+      <h1 className="m-5 text-2xl font-medium md:text-center">Home</h1>
       <Test />
-      <Link href="about/">aboutページへ</Link>
-    </main>
+    </>
   );
 };
 
-export default Home;
+export default HomePage;
