@@ -26,8 +26,11 @@ const RootLayout = ({
                 <li className="md:mr-4">
                   <Link href="/about">About</Link>
                 </li>
-                <li>
+                <li className="md:mr-4">
                   <Link href="/dashboard">Dashboard</Link>
+                </li>
+                <li>
+                  <Link href="/posts">Posts List</Link>
                 </li>
               </ul>
             </div>
