@@ -1,5 +1,5 @@
 'use server'; // サーバーアクションを使う際、指定
-
+// 5章で使用する関数
 import { revalidatePath } from 'next/cache';
 
 const createPostJp = async (formData: FormData) => {
