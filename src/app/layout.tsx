@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { Toaster } from '@/components/ui/toaster';
+
 // import TanstackQueryProvider from '@/app/_libs/tanstackProvider';
 
 import type { Metadata } from 'next';
@@ -39,12 +41,16 @@ const RootLayout = ({
                 <li>
                   <Link href="/sampletanstack1">TanStack Query サンプル1 コンポーネントを分割してCRUD</Link>
                 </li>
+                <li>
+                  <Link href="/sampleshadcnui">Shadcn UI サンプル</Link>
+                </li>
               </ul>
             </div>
           </div>
         </header>
         {/* <main className="flex min-h-screen flex-col items-center justify-between p-5">{children}</main> */}
         <main className="p-3 md:flex md:flex-col md:items-center md:justify-between">{children}</main>
+        <Toaster />
         <footer>
           <p className="border-t p-3 text-center">&copy;テストサイト</p>
         </footer>
