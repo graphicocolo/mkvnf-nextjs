@@ -24,7 +24,7 @@ const RootLayout = ({
       <body>
         <header className="border-b bg-gray-100">
           <div className="md:flex md:justify-between md:align-middle">
-            <div className="p-2 text-xl md:p-5">
+            <div className="p-2 text-xl md:w-48 md:p-5">
               <Link href="/">テストサイト</Link>
             </div>
             <div className="p-2 md:p-5">
@@ -38,11 +38,14 @@ const RootLayout = ({
                 <li className="md:mr-4">
                   <Link href="/posts">Posts List</Link>
                 </li>
-                <li>
+                <li className="md:mr-4">
                   <Link href="/sampletanstack1">TanStack Query サンプル1 コンポーネントを分割してCRUD</Link>
                 </li>
-                <li>
+                <li className="md:mr-4">
                   <Link href="/sampleshadcnui">Shadcn UI サンプル</Link>
+                </li>
+                <li className="md:mr-4">
+                  <Link href="/sampleimages">Image コンポーネントサンプル</Link>
                 </li>
               </ul>
             </div>
