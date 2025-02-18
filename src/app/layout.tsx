@@ -52,6 +52,9 @@ const RootLayout = ({
                   <li className="md:mr-4">
                     <Link href="/samplecontextapi">Context API サンプル</Link>
                   </li>
+                  <li className="md:mr-4">
+                    <Link href="/sampleenv">env 表示サンプル</Link>
+                  </li>
                 </ul>
               </div>
             </div>
