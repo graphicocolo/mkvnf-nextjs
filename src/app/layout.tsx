@@ -60,7 +60,10 @@ const RootLayout = ({
                       <Link href="/sampleenv">env 表示サンプル</Link>
                     </li>
                     <li className="md:mr-4">
-                      <Link href="/samplesuspense"> Suspense 表示サンプル</Link>
+                      <Link href="/samplesuspense">Suspense 表示サンプル</Link>
+                    </li>
+                    <li className="md:mr-4">
+                      <Link href="/samplesupabase">Supabase 表示サンプル</Link>
                     </li>
                   </ul>
                 </div>
