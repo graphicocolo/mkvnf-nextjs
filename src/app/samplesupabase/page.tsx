@@ -33,10 +33,10 @@
 'use client';
 import { useEffect, useState } from 'react';
 
-import { createClient } from '@/app/_utils/supabase/client';
 import { Tables } from '@/types/database.types';
+import { createClient } from '@/utils/supabase/client';
 
-const SampleSupabase = () => {
+const SampleSupabasePage = () => {
   const supabase = createClient();
   const [todos, setTodos] = useState<Tables<'todos'>[]>([]);
   const [todoContent, setTodoContent] = useState<string>('');
@@ -166,4 +166,4 @@ const SampleSupabase = () => {
   );
 };
 
-export default SampleSupabase;
+export default SampleSupabasePage;
