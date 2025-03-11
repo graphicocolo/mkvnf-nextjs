@@ -101,6 +101,8 @@
 //   });
 // };
 
+// Next.js で Supabase Auth がどんな仕組みで動いてるか調べました
+// https://qiita.com/megmogmog1965/items/37d7a4a3335f2758c861
 // 型を自動生成後のコード
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
